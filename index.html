@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>MM DESİGN & PROGRAMMING</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/responsive.css">
+  <link rel="stylesheet" href="style/slider.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Pixelify+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <header class="container-fluid m-auto p-0 shadow">
+    <div class="container py-1">
+      <nav class="navbar navbar-expand-lg m-auto">
+        <div class="container-fluid">
+          <span id="logo">MyWebSite
+            <span class="l_stick1"></span>
+            <span class="l_stick2"></span>
+            <span class="l_stick3"></span>
+            <span class="l_stick4"></span>
+          </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse px-5 py-2 justify-content-between" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active nav_color" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_color" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_color" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav_color" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item nav_color" href="#">Action</a></li>
+                  <li><a class="dropdown-item nav_color" href="#">Another action</a></li>
+                  <li><a class="dropdown-item nav_color" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <span class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container-fluid m-0 p-0 d-flex justify-content-center align-items-center flex-column">
+    <div class="splitview skewed">
+      <div class="panel bottom">
+        <div class="content">
+          <div class="description">
+            <h1>The original image.</h1>
+            <p>This is how the image looks like before applying a duotone effect.</p>
+          </div>
+
+          <img src="img/slider_img/head.png" alt="Original">
+        </div>
+      </div>
+
+      <div class="panel top">
+        <div class="content">
+          <div class="description">
+            <h1>The duotone image.</h1>
+            <p>This is how the image looks like after applying a duotone effect.</p>
+          </div>
+
+          <img src="img/slider_img/head_duotone.png" alt="Duotone">
+        </div>
+      </div>
+
+      <div class="handle"></div>
+    </div>
+  </section>
+
+  <section class="container-fluid m-auto d-flex justify-content-center align-items-center flex-column"
+    style="background-color: rgba(223, 204, 150, 0.089);">
+    <div class="container row py-1" style="min-height: 60vh;">
+      <div class="col-md-6 position-relative">
+        <div class="card skill-1">
+          <div class="card-body ">
+            <h3 class="card-title">Skill-1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab modi recusandae quos quibusdam
+              ipsam eaque. Veritatis cumque sunt dolores eius ab. Iste aliquid aspernatur inventore magni, assumenda
+              minus similique.
+            </p>
+          </div>
+
+        </div>
+        <div style="width: 100%;height: auto;" >
+          <img src="img/slider_img/skill_img_1.png" alt="slider-img-1" class="s-img-1" data-aos="fade-down-right">
+        </div>
+        <div class="card skill-2">
+          <div class="card-body ">
+            <h3 class="card-title">Skill-2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab modi recusandae quos quibusdam
+              ipsam eaque. Veritatis cumque sunt dolores eius ab. Iste aliquid aspernatur inventore magni, assumenda
+              minus similique.
+            </p>
+          </div>
+        </div>
+        <div style="width: 100%;height: auto;">
+          <img src="img/slider_img/skill_img_2.png" alt="slider-img-1" class="s-img-2" data-aos="fade-down-left">
+        </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <div class="card skill-1">
+          <div class="card-body ">
+            <h3 class="card-title">Skill-3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab modi recusandae quos quibusdam
+              ipsam eaque. Veritatis cumque sunt dolores eius ab. Iste aliquid aspernatur inventore magni, assumenda
+              minus similique.
+            </p>
+          </div>
+        </div>
+        <div style="width: 100%;height: auto;">
+          <img src="img/slider_img/skill_img_3.png" alt="slider-img-1" class="s-img-1" data-aos="fade-down-right">
+        </div>
+        <div class="card skill-2">
+          <div class="card-body">
+            <h3 class="card-title">Skill-4</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab modi recusandae quos quibusdam
+              ipsam eaque. Veritatis cumque sunt dolores eius ab. Iste aliquid aspernatur inventore magni, assumenda
+              minus similique.
+            </p>
+          </div>
+        </div>
+        <div style="width: 100%;height: auto;">
+          <img src="img/slider_img/skill_img_4.png" alt="slider-img-1" class="s-img-2" data-aos="fade-down-left">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container d-flex justify-content-around align-items-center my-4" id="beat-hr">
+    <div class="col-md-5 border-bottom border-3 border-dark"></div>
+    <div class="col-md-1 d-flex justify-content-center align-items-center fs-1"><img src="img/cube.png" alt=""
+        class="about_cube"></i>
+    </div>
+    <div class="col-md-5 border-bottom border-3 border-dark"></div>
+  </div>
+  <div class="container row pb-5 py-5 m-auto">
+    <div class="card col-md-7">
+      <div class="card-body">
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ab modi recusandae quos quibusdam
+          ipsam eaque. Veritatis cumque sunt dolores eius ab. Iste aliquid aspernatur inventore magni, assumenda
+          minus similique. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dicta assumenda qui ullam,
+          ipsa doloribus, molestiae amet, rem hic dolore modi culpa.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-5 my-2" data-aos="fade-left">
+      <img src="img/aboutme.png" alt="about-us" class="img-fluid about-me">
+    </div>
+  </div>
+  <div class="container d-flex justify-content-around align-items-center my-4 " id="beat-hr">
+    <div class="col-md-5 border-bottom border-3 border-dark"></div>
+    <div class="col-md-1 d-flex justify-content-center align-items-center fs-1"><img src="img/cube.png" alt=""
+        class="about_cube"></i>
+    </div>
+    <div class="col-md-5 border-bottom border-3 border-dark"></div>
+  </div>
+
+  <section class="container-fluid d-flex justify-content-center align-items-center m-auto "
+    style="background-color: rgba(223, 204, 150, 0.089);">
+    <div class="container">
+      <div class="col-12 d-flex justify-content-center align-items-center py-4 r_b ">
+        <h2>Referances</h2>
+      </div>
+      <div class="col-12 d-flex justify-content-center align-items-center mb-4" style="text-align: justify;">
+        <p>MM DESIGN & PROGRAMMING BÜNYESİNDE BİRLİKTE ÇALIŞTIĞIMIZ İŞ ORTAKLARIMIZ.</p>
+      </div>
+      <div class="row justify-content-center align-items-center pb-5 r_img ">
+        <div class="col-md-2 px-sm-3 py-sm-2 r_py-3 r_mx_3 d-flex justify-content-center align-items-center fs-1"><a
+            href="#"><img src="img/slider_img/left_arrow.png" alt="" class="arrow"></a></div>
+        <div class="col-md-2 px-sm-3 py-sm-2 r_py-3 r_mx_3 d-flex justify-content-center align-items-center"><img
+            src="img/referances/2.png" alt=""></div>
+        <div class="col-md-2 px-sm-3 py-sm-2 r_py-3 r_mx_3 d-flex justify-content-center align-items-center"><img
+            src="img/referances/3.png" alt=""></div>
+        <div class="col-md-2 px-sm-3 py-sm-2 r_py-3 r_mx_3 d-flex justify-content-center align-items-center"><img
+            src="img/referances/4.png" alt=""></div>
+        <div class="col-md-2 px-sm-3 py-sm-2 r_py-3 r_mx_3 d-flex justify-content-center align-items-center"><img
+            src="img/referances/5.png" alt=""></div>
+        <div class="col-md-2 px-sm-3 py-sm-2 r_py-3 r_mx_3 d-flex justify-content-center align-items-center fs-1"><a
+            href="#"><img src="img/slider_img/right_arrow.png" alt="" class="arrow"></i></a></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid d-flex justify-content-center align-items-center m-auto m-0"
+    style="background-color: rgba(223, 204, 150, 0.089);">
+    <div class="container row py-4">
+      <div class="col-md-6 d-flex flex-column">
+        <span id="text_gr">MyWebSite</span>
+        <p class="py-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aperiam inventore repellat fuga
+          neque ipsam
+          velit nesciunt blanditiis dolorum porro omnis quidem obcaecati nemo, iure eos.</p>
+        <p class="py-1">Made with and in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle,
+          Tampa, and
+          Vergennes. </p>
+        <ul class="d-flex flex-wrap p-0">
+          <li class="list-group-item  "><a href="#" class="text-decoration-none text-black">License</a></li>
+          <li class="list-group-item px-3 "><a href="#" class="text-decoration-none text-black">Terms of Service</a>
+          </li>
+          <li class="list-group-item px-3 "><a href="#" class="text-decoration-none text-black">Privacy Policy</a></li>
+          <li class="list-group-item  "><a href="#" class="text-decoration-none text-black">Refunds</a></li>
+        </ul>
+
+      </div>
+      <div class="col-md-6 row">
+        <div class="col-md-4">
+          <h4 class="text-info-emphasis">Project</h4>
+          <ul class="list-group-horizontal p-0">
+            <li class="list-group-item">Download</li>
+            <li class="list-group-item">Changelog</li>
+            <li class="list-group-item">Commission Icons</li>
+            <li class="list-group-item">All Versions</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="text-info-emphasis">Community</h4>
+          <ul class="list-group-horizontal p-0">
+            <li class="list-group-item">GitHub</li>
+            <li class="list-group-item">Icon Requests</li>
+            <li class="list-group-item">Twitter</li>
+            <li class="list-group-item">Blog Awesome</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="text-info-emphasis">Help</h4>
+          <ul class="list-group-horizontal p-0">
+            <li class="list-group-item">Support</li>
+            <li class="list-group-item">Troubleshooting</li>
+            <li class="list-group-item">Contact Us</li>
+            <li class="list-group-item">Status</li>
+          </ul>
+        </div>
+        <i class="d-flex justify-content-end align-items-end" style="font-size: 12px;">@MM DESIGN & PROGRAMMING</i>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <a href="#" class="main_top d-flex justify-content-center align-items-center btn btn-dark">
+    <i class="fa-solid fa-caret-up "></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script/app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

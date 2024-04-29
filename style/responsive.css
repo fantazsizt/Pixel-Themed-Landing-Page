@@ -1,0 +1,79 @@
+@media screen and (max-width: 1080px) {
+    .s-img-1 {
+        height: 27%;
+    }
+    
+    .s-img-2 {
+        height: 27%;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .slider_text {
+        font-size: 2.2em;
+    }
+
+    .r_mx_3 {
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+    }
+
+    .skill-1 {
+        position: relative !important;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        margin: 5px;
+        width: 100% !important;
+    }
+
+    .skill-2 {
+        position: relative;
+        top: 0px;
+        left: 0;
+        margin: 5px;
+        width: 100% !important;
+    }
+
+    .s-img-1 {
+        display: none;
+    }
+
+    .s-img-2 {
+        display: none;
+    }
+
+    .splitview {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider_text {
+        font-size: 2em;
+        top: 26%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .slider_text {
+        font-size: 1.5em;
+        top: 20%;
+    }
+
+    .splitview {
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .r_my-3 {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .r_py-3 {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+}
